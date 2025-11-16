@@ -1,0 +1,10 @@
+rest:
+  port: 8080
+  allow_origin: "*"
+
+postgres:
+  host: db
+  port: 5432
+  user: ${POSTGRES_USER}
+  password: ${POSTGRES_PASSWORD}
+  database: ${POSTGRES_DB}
